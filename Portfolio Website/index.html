@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Developer Portfolio</title>
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<>
+    <!-- Animated Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">PortFolio</a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= Combined Hero & Profile Section ======= -->
+    <section id="hero-profile">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <!-- Hero Content (Left Side) -->
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">
+                        Hi, I'm <span class="text-primary">Sai Chandu</span>
+                        <div class="typing-text">
+                            <span id="typed-text" class="text-muted h4"></span>
+                        </div>
+                    </h1>
+                    <p class="lead mb-4">Python Developer | Data Specialist | Backend Engineer</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <a href="#projects" class="btn btn-primary btn-lg px-4">
+                            <i class="fas fa-laptop-code me-2"></i>View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg px-4">
+                            <i class="fas fa-paper-plane me-2"></i>Hire Me
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-4">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-primary mb-0">5+</h3>
+                                <small>Projects</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-primary mb-0">Fresher</h3>
+                                <small>Years Exp</small>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="p-3 border rounded text-center">
+                                <h3 class="text-primary mb-0">100%</h3>
+                                <small>Passion</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Profile Card (Right Side) -->
+                <div class="col-lg-6">
+                    <div class="card shadow-sm border-0 overflow-hidden">
+                        <div class="card-body p-4">
+                            <div class="text-center mb-4">
+                                <div class="profile-photo-container">
+                                    <img src="sai6.jpg" 
+                                         class="profile-photo" 
+                                         alt="Profile Photo">
+                                </div>
+                                <h3 class="mt-3 mb-1">Chandu Developer</h3>
+                                <p class="text-muted">Python Full Stack Developer</p>
+                            </div>
+                            
+                            <!-- About Me -->
+                            <div class="mb-4">
+                                <h5><i class="fas fa-user me-2"></i> About Me</h5>
+                                <p class="mb-0">
+                                    Passionate Python developer specializing in web applications and data analysis. 
+                                    Strong problem-solving skills with  professional experience.
+                                </p>
+                            </div>
+                            
+                            <!-- Details -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <div class="d-flex">
+                                            <i class="fas fa-map-marker-alt mt-1"></i>
+                                            <div>
+                                                <h6 class="mb-0">Location</h6>
+                                                <p class="text-muted mb-0">Bangalore,Karnataka,India</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <div class="d-flex">
+                                            <i class="fas fa-envelope mt-1"></i>
+                                            <div>
+                                                <h6 class="mb-0">Email</h6>
+                                                <p class="text-muted mb-0">vaddlasaichandu@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <div class="d-flex">
+                                            <i class="fas fa-graduation-cap mt-1"></i>
+                                            <div>
+                                                <h6 class="mb-0">Education</h6>
+                                                <p class="text-muted mb-0">B.Tech in ECE,LITAM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="detail-item">
+                                        <div class="d-flex">
+                                            <i class="fas fa-birthday-cake mt-1"></i>
+                                            <div>
+                                                <h6 class="mb-0">Age</h6>
+                                                <p class="text-muted mb-0">22</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="text-center mt-4">
+                                <a href="https://www.github.com/Sai-Chandu-Python-18" class="btn btn-outline-primary btn-floating m-1">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/vaddla-sai-chandu-36266b26b" class="btn btn-outline-primary btn-floating m-1">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www/instagram.com/Chandu_chases-18" class="btn btn-outline-primary btn-floating m-1">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-primary btn-floating m-1">
+                                    <i class="fab fa-medium"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- ======= Projects Section ======= -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">My Projects</h2>
+            
+            <div class="row">
+                <!-- Amazon Clone Project -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="amzon.jpg" class="card-img-top project-img" alt="Amazon Clone">
+                        <div class="card-body">
+                            <h5 class="card-title">Amazon E-Commerce Clone</h5>
+                            <p class="card-text">Full-featured e-commerce platform with product listings, cart, and payment integration.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Django</span>
+                                <span class="badge tech-badge bg-secondary">PostgreSQL</span>
+                                <span class="badge tech-badge bg-success">Stripe API</span>
+                                <span class="badge tech-badge bg-info">Bootstrap</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#amazonModal">
+                                View Details
+                            </button>
+                            <a href="#" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Netflix Clone Project -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="netflix.png" class="card-img-top project-img" alt="Netflix Clone">
+                        <div class="card-body">
+                            <h5 class="card-title">Netflix Streaming Clone</h5>
+                            <p class="card-text">Video streaming platform with user profiles, recommendations, and subscription plans.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Python</span>
+                                <span class="badge tech-badge bg-danger">Flask</span>
+                                <span class="badge tech-badge bg-dark">MongoDB</span>
+                                <span class="badge tech-badge bg-warning">JavaScript</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#netflixModal">
+                                View Details
+                            </button>
+                            <a href="#" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Image Steganography Project -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="secure.png" class="card-img-top project-img" alt="Image Steganography">
+                        <div class="card-body">
+                            <h5 class="card-title">Secure Image Steganography</h5>
+                            <p class="card-text">Hide and extract secret messages in images using AES encryption and LSB algorithm.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Python</span>
+                                <span class="badge tech-badge bg-success">OpenCV</span>
+                                <span class="badge tech-badge bg-info">AES-256</span>
+                                <span class="badge tech-badge bg-secondary">LSB Algorithm</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#stegoModal">
+                                View Details
+                            </button>
+                            <a href="#" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Real-time stock market Analysis website -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="real-time-stock.png" class="card-img-top project-img" alt="Indian Stock Market Analysis">
+                        <div class="card-body">
+                            <h5 class="card-title">Real-time stock Market Analysis</h5>
+                            <p class="card-text">Modern, responsive design with Tailwind CSS,Real-time data updates with smooth animations,Interactive charts using Recharts,Mobile-optimized interface.Live status indicators.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Python</span>
+                                <span class="badge tech-badge bg-secondary">Tailwind CSS</span>
+                                <span class="badge tech-badge bg-success">WebTechnologies</span>
+                                <span class="badge tech-badge bg-info">Bootstrap</span>
+                                <span class="badge tech-badge bg-secondary">MDB</span>
+                                <span class="badge tech-badge bg-primary">Django</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#stegoModal">
+                                View Details
+                            </button>
+                            <a href="https://github.com/Sai-Chandu-Python-18/Real-time-indian-stock-market-analysis" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Amazon Prime website -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="amazon_prime.webp" class="card-img-top project-img" alt="Image Steganography">
+                        <div class="card-body">
+                            <h5 class="card-title">Amazon Prime streaming platform</h5>
+                            <p class="card-text">Video streaming platform with user profiles, recommendations, and subscription plans.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Python</span>
+                                <span class="badge tech-badge bg-success">WebTechnologies</span>
+                                <span class="badge tech-badge bg-info">Bootstrap</span>
+                                <span class="badge tech-badge bg-secondary">MDB</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#stegoModal">
+                                View Details
+                            </button>
+                            <a href="https://github.com/Sai-Chandu-Python-18/Amazon-Prime-Website" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Blood Bank Management -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card project-card">
+                        <img src="bloodbank.png" class="card-img-top project-img" alt="Blood Bank System">
+                        <div class="card-body">
+                            <h5 class="card-title">Blood Bank Management System</h5>
+                            <p class="card-text">Web application for blood donation management with donor tracking and inventory.</p>
+                            
+                            <div class="mb-3">
+                                <span class="badge tech-badge bg-primary">Django</span>
+                                <span class="badge tech-badge bg-success">SQLite</span>
+                                <span class="badge tech-badge bg-secondary">Python</span>
+                                <span class="badge tech-badge bg-danger">WebTechnologies</span>
+                                <span class="badge tech-badge bg-info">Bootstrap</span>
+                            </div>
+                            
+                            <button type="button" class="btn btn-primary btn-sm" data-mdb-toggle="modal" data-mdb-target="#bloodModal">
+                                View Details
+                            </button>
+                            <a href="#" class="btn btn-outline-primary btn-sm ms-2">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    
+    <!-- Amazon Clone Modal -->
+    <div class="modal fade" id="amazonModal" tabindex="-1" aria-labelledby="amazonModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="amazonModalLabel">Amazon E-Commerce Clone</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/amzon.jpg" class="img-fluid project-modal-img mb-3" alt="Amazon Clone">
+                    <h6>Project Description:</h6>
+                    <p>Developed a full-stack e-commerce platform inspired by Amazon with the following features:</p>
+                    <ul>
+                        <li>User authentication and profile management</li>
+                        <li>Product catalog with search and filtering</li>
+                        <li>Shopping cart and wishlist functionality</li>
+                        <li>Stripe payment gateway integration</li>
+                        <li>Order tracking system</li>
+                        <li>Admin dashboard for inventory management</li>
+                    </ul>
+                    <h6>Technologies Used:</h6>
+                    <div class="mb-3">
+                        <span class="badge tech-badge bg-primary">Django</span>
+                        <span class="badge tech-badge bg-warning">WebTechnologies</span>
+                        <span class="badge tech-badge bg-secondary">PostgreSQL</span>
+                        <span class="badge tech-badge bg-success">Stripe API</span>
+                        <span class="badge tech-badge bg-info">Bootstrap 5</span>
+                        <span class="badge tech-badge bg-warning">JavaScript</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                    <a href="https://github.com/Sai-Chandu-Python-18/Amazon-Prime-Website" class="btn btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Netflix Clone Modal -->
+    <div class="modal fade" id="netflixModal" tabindex="-1" aria-labelledby="netflixModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="netflixModalLabel">Netflix Streaming Clone</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/netflix.png" class="img-fluid project-modal-img mb-3" alt="Netflix Clone">
+                    <h6>Project Description:</h6>
+                    <p>Created a video streaming platform with the following capabilities:</p>
+                    <ul>
+                        <li>User authentication with profile switching</li>
+                        <li>Content recommendation engine</li>
+                        <li>Subscription plans with payment processing</li>
+                        <li>Video streaming with adaptive bitrate</li>
+                        <li>Admin content management system</li>
+                        <li>Viewing history and watchlist</li>
+                    </ul>
+                    <h6>Technologies Used:</h6>
+                    <div class="mb-3">
+                        <span class="badge tech-badge bg-primary">Python</span>
+                        <span class="badge tech-badge bg-secondary">WebTechnologies</span>
+                        <span class="badge tech-badge bg-danger">Flask</span>
+                        <span class="badge tech-badge bg-dark">MongoDB</span>
+                        <span class="badge tech-badge bg-success">Django</span>
+                        <span class="badge tech-badge bg-warning">JavaScript</span>
+                        <span class="badge tech-badge bg-info">FFmpeg</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                    <a href="https://github.com/Sai-Chandu-Python-18/Netlfix-Clone" class="btn btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Steganography Modal -->
+    <div class="modal fade" id="stegoModal" tabindex="-1" aria-labelledby="stegoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="stegoModalLabel">Secure Image Steganography</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/secure.png" class="img-fluid project-modal-img mb-3" alt="Steganography">
+                    <h6>Project Description:</h6>
+                    <p>Implemented a secure system for hiding and extracting secret messages in images using:</p>
+                    <ul>
+                        <li>AES-256 encryption for message security</li>
+                        <li>LSB (Least Significant Bit) algorithm for embedding</li>
+                        <li>Support for multiple image formats (PNG, BMP, JPEG)</li>
+                        <li>Password protection for extraction</li>
+                        <li>GUI interface for easy operation</li>
+                    </ul>
+                    <h6>Technologies Used:</h6>
+                    <div class="mb-3">
+                        <span class="badge tech-badge bg-primary">Python</span>
+                        <span class="badge tech-badge bg-success">MATLAB</span>
+                        <span class="badge tech-badge bg-info">AES-256</span>
+                        <span class="badge tech-badge bg-secondary">LSB Algorithm</span>
+                        <span class="badge tech-badge bg-warning">PyQt5</span>
+                        <span class="badge tech-badge bg-warning">PyTorch</span>
+                        <span class="badge tech-badge bg-warning">Tkinter</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                    <a href="https://github.com/Sai-Chandu-Python-18/A-Image-Hiding-and-Extraction-process-using-AES-and-LSB-Algorithms" class="btn btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                
+    
+    <!-- Blood Bank Modal -->
+    <div class="modal fade" id="bloodModal" tabindex="-1" aria-labelledby="bloodModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="bloodModalLabel">Blood Bank Management System</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/bloodbank.png" class="img-fluid project-modal-img mb-3" alt="Blood Bank System">
+                    <h6>Project Description:</h6>
+                    <p>Developed a comprehensive blood bank management system with:</p>
+                    <ul>
+                        <li>Donor registration and management</li>
+                        <li>Blood inventory tracking</li>
+                        <li>Blood request processing</li>
+                        <li>Expiration date monitoring</li>
+                        <li>Real-time blood availability dashboard</li>
+                        <li>Reporting and analytics</li>
+                    </ul>
+                    <h6>Technologies Used:</h6>
+                    <div class="mb-3">
+                        <span class="badge tech-badge bg-primary">Django</span>
+                        <span class="badge tech-badge bg-success">SQLite</span>
+                        <span class="badge tech-badge bg-danger">HTML5</span>
+                        <span class="badge tech-badge bg-primary">CSS3</span>
+                        <span class="badge tech-badge bg-success">JavaScript-Basics</span>
+                        <span class="badge tech-badge bg-info">Bootstrap</span>
+                        <span class="badge tech-badge bg-warning">MDB</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary"><i class="fab fa-github"></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section with Animated Progress Bars -->
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Technical Skills</h2>
+            
+            <div class="row">
+                <!-- Python & Data Science -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-4">
+                                <i class="fab fa-python me-2"></i>Python & Data Science
+                            </h5>
+                            <div class="text-center">
+                                <span class="skill-pill python">Python 3</span>
+                                <span class="skill-pill lib">NumPy</span>
+                                <span class="skill-pill lib">Pandas</span>
+                                <span class="skill-pill lib">Matplotlib</span>
+                                <span class="skill-pill lib">Seaborn</span>
+                                <span class="skill-pill dsa">Data Structures</span>
+                                <span class="skill-pill dsa">Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-4">
+                                <i class="fas fa-globe me-2"></i>Web Technologies
+                            </h5>
+                            <div class="text-center">
+                                <span class="skill-pill framework">Django</span>
+                                <span class="skill-pill framework">Flask</span>
+                                <span class="skill-pill web">RESTful APIs</span>
+                                <span class="skill-pill web">HTML5/CSS3</span>
+                                <span class="skill-pill web">JavaScript</span>
+                                <span class="skill-pill web">Bootstrap 5</span>
+                                <span class="skill-pill web">MDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Databases & Cloud -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-4">
+                                <i class="fas fa-database me-2"></i>Databases & Cloud
+                            </h5>
+                            <div class="text-center">
+                                <span class="skill-pill database">SQL</span>
+                                <span class="skill-pill database">MySQL</span>
+                                <span class="skill-pill database">SQLite</span>
+                                <span class="skill-pill cloud">AWS Basics</span>
+                                <span class="skill-pill cloud">CI/CD</span>
+                                <span class="skill-pill cloud">EC2</span>
+                                <span class="skill-pill cloud">S3</span>
+                                <span class="skill-pill cloud">RDS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="py-5">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        
+        <div class="container position-relative" style="z-index: 1;">
+            <h2 class="text-center mb-5 fw-bold">Get In Touch</h2>
+            
+            <div class="row g-4">
+                <!-- Contact Form Column -->
+                <div class="col-lg-7">
+                    <div class="card contact-form-card h-100">
+                        <div class="card-body p-4">
+                            <form id="contactForm" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-outline">
+                                            <input type="text" id="name" name="name" class="form-control" required>
+                                            <label class="form-label" for="name">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-outline">
+                                            <input type="email" id="email" name="email" class="form-control" required>
+                                            <label class="form-label" for="email">Email Address</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <div class="form-outline">
+                                        <input type="text" id="subject" name="subject" class="form-control" required>
+                                        <label class="form-label" for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <div class="form-outline">
+                                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                        <label class="form-label" for="message">Your Message</label>
+                                    </div>
+                                </div>
+                                
+                                <!-- File Upload Section -->
+                                <div class="mb-4">
+                                    <label class="form-label">Attach Files (Resume, Project, etc.)</label>
+                                    <div id="fileUploadContainer" class="file-upload-container">
+                                        <i class="fas fa-cloud-upload-alt fa-3x mb-3 text-primary"></i>
+                                        <p class="mb-2">Drag & drop files here or click to browse</p>
+                                        <small class="text-muted">Max file size: 5MB (PDF, DOC, JPG, PNG)</small>
+                                        <input type="file" id="fileUpload" name="file" class="d-none" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+                                        <img id="filePreview" class="file-preview" alt="File preview">
+                                    </div>
+                                    <div id="fileName" class="mt-2 small text-muted"></div>
+                                </div>
+                                
+                                <!-- CAPTCHA -->
+                                <div class="mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <div id="captcha" class="border p-2 me-3 bg-light">
+                                            <span id="captchaText" class="fw-bold"></span>
+                                        </div>
+                                        <div class="form-outline flex-grow-1">
+                                            <input type="text" id="captchaInput" class="form-control" required>
+                                            <label class="form-label" for="captchaInput">Enter CAPTCHA</label>
+                                        </div>
+                                        <button type="button" id="refreshCaptcha" class="btn btn-sm btn-link ms-2">
+                                            <i class="fas fa-sync-alt"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="consent" required>
+                                    <label class="form-check-label" for="consent">
+                                        I consent to having this website store my submitted information
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    <span id="submitText">Send Message</span>
+                                    <span id="submitSpinner" class="spinner-border spinner-border-sm d-none" role="status"></span>
+                                </button>
+                            </form>
+                            
+                            <!-- Success/Error Message -->
+                            <div id="formAlert" class="mt-3 alert d-none"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Info Column -->
+                <div class="col-lg-5">
+                    <div class="h-100 d-flex flex-column">
+                        <div class="card mb-4 contact-info-item">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                        <i class="fas fa-map-marker-alt text-primary fa-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Location</h5>
+                                        <p class="mb-0 text-muted">Bangalore,Karnataka,India,560037</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card mb-4 contact-info-item">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                        <i class="fas fa-envelope text-primary fa-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Email</h5>
+                                        <p class="mb-0 text-muted">vaddlasaichandu@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card mb-4 contact-info-item">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="bg-primary bg-opacity-10 p-3 rounded me-3">
+                                        <i class="fas fa-phone-alt text-primary fa-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1">Call Me</h5>
+                                        <p class="mb-0 text-muted">+91 8688637574</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card contact-info-item">
+                            <div class="card-body">
+                                <h5 class="mb-3">Connect on Social Media</h5>
+                                <div class="d-flex flex-wrap">
+                                    <a href="https://www.github.com/Sai-Chandu-Python-18" class="btn btn-outline-primary btn-floating m-1">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/vaddla-sai-chandu-35266b26b" class="btn btn-outline-primary btn-floating m-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com/SaiChandu6526" class="btn btn-outline-primary btn-floating m-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/Chandu_chases_18" class="btn btn-outline-primary btn-floating m-1">
+                                        <i class="fab fa-stack-overflow"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-outline-primary btn-floating m-1">
+                                        <i class="fab fa-medium"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <!-- ======= Footer Section ======= -->
+    <footer class="pt-5 pb-4">
+        <div class="footer-wave"></div>
+        <div class="container footer-content">
+            <div class="row g-4">
+                <!-- About Column -->
+                <div class="col-lg-4 col-md-6 footer-animate">
+                    <div class="mb-4">
+                        <h3 class="h4 mb-3">SaiChandu Developer</h3>
+                        <p>Python Full Stack Developer specializing in web applications, data analysis, and cloud solutions.</p>
+                        <div class="social-icons mt-4">
+                            <a href="#" class="footer-animate delay-1"><i class="fab fa-github"></i></a>
+                            <a href="#" class="footer-animate delay-2"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="footer-animate delay-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="footer-animate delay-1"><i class="fab fa-medium"></i></a>
+                            <a href="#" class="footer-animate delay-2"><i class="fab fa-stack-overflow"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Links Column -->
+                <div class="col-lg-2 col-md-6 footer-animate delay-1">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-chevron-right me-2"></i>Home</a></li>
+                            <li><a href="#profile"><i class="fas fa-chevron-right me-2"></i>Profile</a></li>
+                            <li><a href="#skills"><i class="fas fa-chevron-right me-2"></i>Skills</a></li>
+                            <li><a href="#projects"><i class="fas fa-chevron-right me-2"></i>Projects</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right me-2"></i>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Services Column -->
+                <div class="col-lg-2 col-md-6 footer-animate delay-2">
+                    <div class="footer-links">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Web Development</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Data Analysis</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>API Development</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Python</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>DataBases,SQL,MySQL</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Data Structures and Algorithms</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Newsletter Column -->
+                <div class="col-lg-4 col-md-6 footer-animate delay-3">
+                    <div class="footer-links">
+                        <h5>Newsletter</h5>
+                        <p>Subscribe to my newsletter for tech tips and project updates.</p>
+                        <form class="newsletter-form mt-4">
+                            <div class="form-outline">
+                                <input type="email" id="newsletterEmail" class="form-control" placeholder="Your Email">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="mt-3">
+                            <a href="/Sai_software_developer_Resume.docx" class="btn btn-outline-light btn-sm me-2">
+                                <i class="fas fa-download me-1"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-paper-plane me-1"></i> Hire Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="mt-4 mb-4" style="border-color: rgba(255,255,255,0.1);">
+            
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 Sai Chandu Developer. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">
+                        Made with <i class="fas fa-heart text-danger"></i> and <i class="fas fa-coffee text-warning"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js">
+
+        
+        // Typing Animation
+        document.addEventListener('DOMContentLoaded', function() {
+            new Typed('#typed-text', {
+                strings: ['Python Developer', 'Data Analyst', 'Backend Engineer'],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true
+            });
+            
+            // Initialize MDB components
+            new mdb.Ripple(document.querySelectorAll('.btn'));
+        });
+    
+        
+        // Photo Upload Functionality
+        document.getElementById('photo-upload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    document.getElementById('profile-display').src = event.target.result;
+                    
+                    // Add bounce animation
+                    const photoContainer = document.querySelector('.profile-photo-container');
+                    photoContainer.style.animation = 'none';
+                    void photoContainer.offsetWidth; // Trigger reflow
+                    photoContainer.style.animation = 'bounce 0.5s ease';
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Add bounce animation
+        const style = document.createElement('style');
+        style.innerHTML = `
+            @keyframes bounce {
+                0%, 100% { transform: scale(1); }
+                50% { transform: scale(1.1); }
+            }
+        `;
+        document.head.appendChild(style);
+
+         // Initialize EmailJS (replace with your actual User ID)
+        emailjs.init('YOUR_EMAILJS_USER_ID');
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            // File Upload Handling
+            const fileUpload = document.getElementById('fileUpload');
+            const fileUploadContainer = document.getElementById('fileUploadContainer');
+            const filePreview = document.getElementById('filePreview');
+            const fileName = document.getElementById('fileName');
+            
+            // Handle drag and drop
+            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+                fileUploadContainer.addEventListener(eventName, preventDefaults, false);
+            });
+            
+            function preventDefaults(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            
+            ['dragenter', 'dragover'].forEach(eventName => {
+                fileUploadContainer.addEventListener(eventName, highlight, false);
+            });
+            
+            ['dragleave', 'drop'].forEach(eventName => {
+                fileUploadContainer.addEventListener(eventName, unhighlight, false);
+            });
+            
+            function highlight() {
+                fileUploadContainer.classList.add('active');
+            }
+            
+            function unhighlight() {
+                fileUploadContainer.classList.remove('active');
+            }
+            
+            fileUploadContainer.addEventListener('drop', handleDrop, false);
+            fileUploadContainer.addEventListener('click', () => fileUpload.click());
+            
+            function handleDrop(e) {
+                const dt = e.dataTransfer;
+                const files = dt.files;
+                handleFiles(files);
+            }
+            
+            fileUpload.addEventListener('change', function() {
+                handleFiles(this.files);
+            });
+            
+            function handleFiles(files) {
+                if (files.length > 0) {
+                    const file = files[0];
+                    if (file.size > 5 * 1024 * 1024) {
+                        alert('File size exceeds 5MB limit');
+                        return;
+                    }
+                    
+                    // Display file name
+                    fileName.textContent = `Selected: ${file.name}`;
+                    
+                    // Preview image if it's an image file
+                    if (file.type.startsWith('image/')) {
+                        const reader = new FileReader();
+                        reader.onload = function(e) {
+                            filePreview.src = e.target.result;
+                            filePreview.style.display = 'block';
+                        }
+                        reader.readAsDataURL(file);
+                    } else {
+                        filePreview.style.display = 'none';
+                    }
+                }
+            }
+            
+            // CAPTCHA Generation
+            function generateCaptcha() {
+                const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+                let captcha = '';
+                for (let i = 0; i < 6; i++) {
+                    captcha += chars.charAt(Math.floor(Math.random() * chars.length));
+                }
+                document.getElementById('captchaText').textContent = captcha;
+                return captcha;
+            }
+            
+            let currentCaptcha = generateCaptcha();
+            
+            document.getElementById('refreshCaptcha').addEventListener('click', function() {
+                currentCaptcha = generateCaptcha();
+            });
+            
+            // Form Submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Validate CAPTCHA
+                const userInput = document.getElementById('captchaInput').value;
+                if (userInput !== currentCaptcha) {
+                    alert('CAPTCHA verification failed. Please try again.');
+                    currentCaptcha = generateCaptcha();
+                    return;
+                }
+                
+                // Show loading state
+                const submitBtn = document.querySelector('#contactForm button[type="submit"]');
+                const submitText = document.getElementById('submitText');
+                const submitSpinner = document.getElementById('submitSpinner');
+                
+                submitText.textContent = 'Sending...';
+                submitSpinner.classList.remove('d-none');
+                submitBtn.disabled = true;
+                
+                // Prepare form data
+                const formData = new FormData(this);
+                
+                // Using EmailJS to send the form (you need to set up EmailJS service)
+                emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+                    .then(function(response) {
+                        showAlert('Message sent successfully!', 'success');
+                        document.getElementById('contactForm').reset();
+                        fileName.textContent = '';
+                        filePreview.style.display = 'none';
+                        currentCaptcha = generateCaptcha();
+                    }, function(error) {
+                        showAlert('Failed to send message. Please try again.', 'danger');
+                    })
+                    .finally(function() {
+                        submitText.textContent = 'Send Message';
+                        submitSpinner.classList.add('d-none');
+                        submitBtn.disabled = false;
+                    });
+            });
+            
+            function showAlert(message, type) {
+                const alertDiv = document.getElementById('formAlert');
+                alertDiv.textContent = message;
+                alertDiv.className = `mt-3 alert alert-${type}`;
+                alertDiv.classList.remove('d-none');
+                
+                setTimeout(() => {
+                    alertDiv.classList.add('d-none');
+                }, 5000);
+            }
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            // Back to Top Button
+            const backToTopButton = document.querySelector('.back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.add('active');
+                } else {
+                    backToTopButton.classList.remove('active');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Newsletter Form Submission
+            const newsletterForm = document.querySelector('.newsletter-form form');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    const email = document.getElementById('newsletterEmail').value;
+                    // Here you would typically send this to your backend
+                    alert(`Thank you for subscribing with ${email}!`);
+                    newsletterForm.reset();
+                });
+            }
+            
+            // Initialize tooltips
+            const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-mdb-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new mdb.Tooltip(tooltipTriggerEl);
+            });
+        });
+    
+    </script>
+</body>
+</html>
